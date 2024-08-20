@@ -9,3 +9,5 @@ function Go()
         game:GetService("ReplicatedStorage").Remotes.Main.Vote:FireServer("1",5,5)
     end)
 end
+
+Go()
